@@ -1,0 +1,44 @@
+08*) #include <stdio.h>
+int main( ){
+int a;
+int antecessor;
+int sucessor; 
+puts("digite um número");
+scanf("%d", &a); 
+antecessor= a-1;
+sucessor= a+1;
+printf("o sucessor desse número é: %d", sucessor);
+printf("o antecessor desse número é: %d", antecessor);
+return 0; 
+}
+
+09*) #include <stdio.h>
+int main( ){
+int altura;
+int largura;
+int comprimento; 
+int volume;
+puts("digite a largura");
+scanf("%d", &largura); 
+puts("digite a altura");
+scanf("%d", &altura); 
+puts("digite o comprimento");
+scanf("%d", &comprimento); 
+volume = altura * largura * comprimento;
+printf("o volume é: %d", volume);
+return 0; 
+}
+
+10*)#include <stdio.h>
+int main( ){
+int a;
+int dolartotal;
+int reais; 
+puts("digite quantos dólares equivalem a um real atualmente");
+scanf("%d", &a); 
+puts("digite quantos reais você deseja converter ao valor em dólar");
+scanf("%d", &reais); 
+dolartotal = reais*a;
+printf("o número de dólares que equivalem ao valor em real informado é: %d", dolartotal);
+return 0; 
+}
