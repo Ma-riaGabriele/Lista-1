@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+
+float x;
+
+float c;
+
+puts("Digite um número: ");
+
+scanf("%f",&x);
+
+c=x* 1.10;
+
+printf("o valor é: %f\n", c);
+
+return 0;
+
+}
