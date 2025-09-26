@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+
+int x;
+
+int t;
+
+int q;
+
+float meio;
+
+puts("Digite um número: ");
+
+scanf("%d",&x);
+
+t = 3 * x;
+
+q = x * x;
+
+meio = x * 0.5;
+
+printf("o valor é: %d\n", x);
+
+printf("o valor é: %d\n", t);
+
+printf("o valor é: %d\n", q);
+
+printf("o valor é: %f\n", meio);
+
+return 0;
+}
