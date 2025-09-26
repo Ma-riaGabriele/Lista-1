@@ -1,0 +1,136 @@
+11*)#include <stdio.h>
+
+int main ()
+
+{int a:
+
+int b;
+
+int soma;
+
+int produto;
+
+int diferenca;
+
+int quociente;
+
+int resto;
+
+puts("Digite o primeiro numero: ");
+
+scanf("%d", &a);
+
+puts("Digite o segundo numero: ");
+
+scanf("%d", &b);
+
+soma = a+b;
+
+diferenca a - b;
+
+produto = a*b;
+
+quociente = a/b;
+
+resto = asb;
+
+printf("a soma é: %d", soma);
+
+printf("a produto é: %d", produto);
+
+printf("a diferença é: %d", diferenca);
+
+printf("a quociente é: %d", quociente);
+
+printf("a resto é: %d", resto);
+
+return 0;
+}
+
+12*)#include <stdio.h>
+
+int main(void) {
+    int A, B, aux;
+
+    printf("Digite o valor para A: ");
+    scanf("%d", &A);
+    printf("Digite o valor para B: ");
+    scanf("%d", &B);
+
+    aux = A;
+    A = B;
+    B = aux;
+
+    printf("Apos a troca:\n");
+    printf("A = %d\n", A);
+    printf("B = %d\n", B);
+
+    return 0;
+}
+
+
+13*)#include <stdio.h>
+
+int main ()
+
+{float a;
+
+float farhr;
+
+puts("Digite o primeiro numero: ");
+
+scanf("%f", &a);
+
+farhr=(9*a+160)/5;
+
+printf("a temperatura em fahrenheit é: %f", farhr);
+
+return 0;
+
+}p
+
+14*)#include <stdio.h>
+
+int main ()
+
+{float dias;
+
+float pagamento;
+
+float pagamentofinal;
+
+puts("Digite o número de dias trabalhados: ");
+
+scanf("%f", &dias);
+
+pagamento = 50.25 * dias;
+
+if(dias >10 && dias<=20) {
+
+pagamento = pagamento + pagamento * 0.2;
+
+pagamentofinal pagamento pagamento * 0.1;
+
+printf("seu pagamento é: %f", pagamentofinal);
+
+}
+
+else if (dias>20) {
+
+pagamento = pagamento + pagamento * 0.3;
+
+pagamentofinal= pagamento pagamento * 0.1;
+
+printf("seu pagamento é: %f", pagamentofinal);
+
+}
+
+else { pagamentofinal = pagamento -0.1* pagamento;
+
+printf("seu pagamento é: %f", pagamentofinal);
+}
+return 0;
+
+}
+
+}
