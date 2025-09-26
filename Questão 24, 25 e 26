@@ -1,0 +1,37 @@
+24*)#include <stdio.h>
+
+int main() {
+    int tempo, horas, minutos, segundos;
+    scanf("%d", &tempo);
+    horas = tempo / 3600;
+    minutos = (tempo % 3600) / 60;
+    segundos = tempo % 60;
+    printf("%d horas, %d minutos, %d segundos\n", horas, minutos, segundos);
+    return 0;
+}
+
+
+25*)#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float x1, y1, x2, y2, d;
+    scanf("%f %f %f %f", &x1, &y1, &x2, &y2);
+    d = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+    printf("%.2f\n", d);
+    return 0;
+}
+
+
+26*)#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float a, b, c, media_aritmetica, media_geometrica;
+    scanf("%f %f %f", &a, &b, &c);
+    media_aritmetica = (a + b + c) / 3;
+    media_geometrica = pow(a * b * c, 1.0 / 3);
+    printf("Aritmetica: %.2f\n", media_aritmetica);
+    printf("Geometrica: %.2f\n", media_geometrica);
+    return 0;
+}
