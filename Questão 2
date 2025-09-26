@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+
+float x;
+
+puts("Digite um número: ");
+
+scanf("%f",&x);
+
+printf("o valor é: %1.f\n", x);
+
+return 0;
+}
