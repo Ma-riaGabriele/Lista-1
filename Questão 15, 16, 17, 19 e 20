@@ -1,0 +1,77 @@
+15*)#include <stdio.h>
+
+int main() {
+    float valorHoraAula;
+    int horasTrabalhadas;
+    float percentualINSS;
+    float salarioBruto;
+    float descontoINSS;
+    float salarioLiquido;
+
+    printf("Digite o valor da hora-aula: ");
+    scanf("%f", &valorHoraAula);
+
+    printf("Digite o número de horas trabalhadas no mês: ");
+    scanf("%d", &horasTrabalhadas);
+
+    printf("Digite o percentual de desconto do INSS (ex: 10 para 10%%): ");
+    scanf("%f", &percentualINSS);
+
+    salarioBruto = valorHoraAula * horasTrabalhadas;
+    
+    descontoINSS = salarioBruto * (percentualINSS / 100.0);
+    
+    salarioLiquido = salarioBruto - descontoINSS;
+
+    printf("\nSalário Bruto: %.2f\n", salarioBruto);
+    printf("Salário Líquido: %.2f\n", salarioLiquido);
+
+    return 0;
+}
+
+16*)#include <stdio.h>
+
+int main(void) {
+    int numero;
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &numero);
+    int valorAbsoluto = (numero < 0) ? -numero : numero;
+    printf("O valor absoluto e: %d\n", valorAbsoluto);
+    return 0;
+}
+
+17*)  #include <stdio.h>
+
+int main() {
+    float raio, pi = 3.14159;
+    printf("Digite o raio do circulo: ");
+    scanf("%f", &raio);
+
+    printf("Diametro: %.2f\n", 2 * raio); 
+    printf("Circunferencia: %.2f\n", 2 * pi * raio); 
+    printf("Area: %.2f\n", pi * raio * raio); 
+
+    return 0;
+}
+
+19*) #include <stdio.h>
+
+int main() {
+    int numero;
+    printf("Digite um número inteiro: ");
+    scanf("%d", &numero);
+    printf("O número %d é %s\n", numero, (numero % 2 == 0) ? "par" : "ímpar");
+    return 0;
+}
+
+20*)#include <stdio.h>
+
+int main() {
+    int num1, num2;
+    printf("Digite o primeiro inteiro: ");
+    scanf("%d", &num1);
+    printf("Digite o segundo inteiro: ");
+    scanf("%d", &num2);
+    printf("O primeiro número %s do segundo.\n", (num1 % num2 == 0) ? "é múltiplo" : "não é múltiplo");
+    return 0;
+}
